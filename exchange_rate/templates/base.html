@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>{% block title %}
+      TITLE
+    {% endblock title %}</title>
+</head>
+<body>
+  {% include 'components/navbar.html' %}
+  {% block body %}
+    Base Body!
+  {% endblock body %}
+
+  <footer>
+    &copy; Django Exchanger Rate App
+  </footer>
+</body>
+</html>
